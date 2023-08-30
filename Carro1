@@ -1,3 +1,4 @@
+//aula de construtores
 using System;
 
 class Carro {
@@ -30,7 +31,8 @@ class Construct{
         carro.Potencia = 3.1;
         
         Console.WriteLine ($"{carro.Nome} {carro.Marca} {carro.Potencia}");
-        
+
+        //segundo carro é feito pela class construtor
         var carro2 = new Carro("Celta", "Chevrolet", 1.0);
         Console.WriteLine ($"{carro2.Nome} {carro2.Marca} {carro2.Potencia}");
         
